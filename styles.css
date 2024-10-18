@@ -1,0 +1,136 @@
+/* Fonts */
+@font-face {
+	font-family: kindergarten;
+	src: url(kindergarten.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Login or General Styles */
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+
+body {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background: url('Space Background.png') no-repeat;
+	color: white;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+h1 {
+	color: #8523AC;
+	width: 350px;
+	font-family: 'kindergarten';
+	font-size: 37px;
+	text-align: center;
+	text-shadow: 2px 2px 10px white;
+	background-color: #F792E3;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border: 1px solid #F792E3;
+}
+
+#star:hover {
+	text-shadow: 2px 2px 10px #8523AC;
+}
+.container-one {
+	width: 350px;
+	height: 350px;
+	position: relative;
+	background: rgba(255, 255, 255, 0.3);
+	box-shadow: 0 7px 10px rgba(254, 210, 222, 0.3);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 1px solid #F792E3;
+}
+
+.login-box {
+	max-width: 250px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+label {
+	font-weight: bold;
+	font-size: 25px;
+	color: #8523AC;
+	text-shadow: 1px 1px 2px #fff,
+	-1px 1px 2px #fff,
+    -1px -1px 2px #fff,
+    1px -1px 2px #fff;
+    font-family: kindergarten
+}
+
+#remember-label {
+	font-family: 'poppins', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+input {
+	font-family: 'poppins', sans-serif;
+	padding: 5px;
+	border-radius: 20px;
+	border: 3px solid #F792E3;
+	background-color: white;
+	color: black;
+}
+
+.end-box {
+	text-align: center;
+	justify-content: center;
+}
+
+#forgot {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+}
+
+#forgot:hover {
+	text-shadow: 2px 2px 10px #F792E3;
+}
+
+#go {
+	color: #8523AC;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Home Styles */
+#back {
+	font-family: kindergarten;
+	font-size: 37px;
+}
+
+#home-link {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+#home-link:hover {
+	text-shadow: 1px 1px 10px #110D28;
+}
+
+.container-two {
+	width: 350px;
+	height: 340px;
+	background: rgba(0, 0, 0, 0.3);
+	box-shadow: 0 7px 10px rgba(254, 210, 222, 0.3);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 1px solid #F792E3;
+	text-align: center;
+}
